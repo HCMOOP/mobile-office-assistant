@@ -1,0 +1,11 @@
+{
+  "name": "mobile-office-assistant-harmonyos",
+  "version": "1.0.0",
+  "description": "Mobile Office Assistant - HarmonyOS",
+  "main": "",
+  "author": "",
+  "license": {},
+  "dependencies": {
+    "@ohos/hvigor-ohos-plugin": "6.22.4"
+  }
+}

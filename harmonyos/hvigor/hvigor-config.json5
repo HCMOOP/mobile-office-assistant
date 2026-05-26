@@ -1,0 +1,13 @@
+{
+  "hvigor": {
+    "logging": {
+      "level": "info"
+    }
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry"
+    }
+  ]
+}

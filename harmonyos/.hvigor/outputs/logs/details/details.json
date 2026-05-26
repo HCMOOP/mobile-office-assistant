@@ -1,0 +1,33 @@
+{
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": false,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "TASK_TIME": {},
+    "APIS": [],
+    "CONFIG_EXPERIMENT": {
+      "ENABLE_MODULE_SKIP": false,
+      "ENABLE_CPP_FUNCTION_LEVEL_INCREMENTAL": false
+    },
+    "CONFIG_PROPERTIES": {},
+    "BUILD_ID": "202605261052067420",
+    "ERROR_MESSAGE": [
+      {
+        "CODE": "00305010",
+        "MESSAGE": "%s",
+        "SOLUTIONS": [
+          "Check whether undefined attributes or methods are used in the hvigorconfig.ts and hvigorfile.ts files.",
+          "Go to the official website for help"
+        ],
+        "MORE_INFO": {
+          "cn": "https://developer.huawei.com/consumer/cn/doc/harmonyos-faqs/faqs-compiling-and-building-108",
+          "en": "https://developer.huawei.com/consumer/en/doc/harmonyos-faqs/faqs-compiling-and-building-108"
+        },
+        "TIMESTAMP": "1779763928134",
+        "CHECK_MESSAGE": "properties of undefined"
+      }
+    ],
+    "TOTAL_TIME": 1396353200
+  }
+}

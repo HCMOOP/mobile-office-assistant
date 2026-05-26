@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Mobile Office Assistant"
+    },
+    {
+      "name": "entry_ability_desc",
+      "value": "Entry Ability"
+    },
+    {
+      "name": "entry_ability_label",
+      "value": "Mobile Office Assistant"
+    }
+  ]
+}

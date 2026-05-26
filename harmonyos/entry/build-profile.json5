@@ -1,0 +1,29 @@
+{
+  "apiType": "stageMode",
+  "buildMode": "debug",
+  "bundleName": "com.office.assistant",
+  "moduleName": "entry",
+  "product": "default",
+  "signingConfig": "default",
+  "srcPath": "./src",
+  "resourcePath": "./src/main/resources",
+  "buildOption": {
+    "externalNativeBuild": {
+      "cmake": {
+        "arguments": [],
+        "cppFlags": "",
+        "cFlags": "",
+        "targets": []
+      }
+    },
+    "arkOptions": {}
+  },
+  "targets": [
+    {
+      "name": "default",
+      "applyToProducts": [
+        "default"
+      ]
+    }
+  ]
+}

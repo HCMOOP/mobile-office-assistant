@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MobileOfficeAssistant</string>
+    <string name="title_activity_main">MobileOfficeAssistant</string>
+    <string name="package_name">com.office.assistant</string>
+    <string name="custom_url_scheme">com.office.assistant</string>
+</resources>

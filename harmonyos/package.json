@@ -1,0 +1,9 @@
+{
+  "name": "mobile-office-assistant-harmonyos",
+  "version": "1.0.0",
+  "description": "Mobile Office Assistant - HarmonyOS",
+  "scripts": {
+    "build": "hvigorw assembleHap",
+    "clean": "hvigorw clean"
+  }
+}
