@@ -41,7 +41,9 @@ jobs:
               <key>method</key>
               <string>development</string>
               <key>signingStyle</key>
-              <string>automatic</string>
+              <string>manual</string>
+              <key>compileBitcode</key>
+              <false/>
           </dict>
           </plist>
           EOF
@@ -54,12 +56,12 @@ jobs:
       - name: Build iOS archive
         run: |
           cd ios/App
-          xcodebuild archive -project App.xcodeproj -scheme App -configuration Release -archivePath App.xcarchive
+          xcodebuild archive -project App.xcodeproj -scheme App -configuration Release -archivePath App.xcarchive -CODE_SIGN_IDENTITY="" -CODE_SIGNING_REQUIRED=NO -CODE_SIGNING_ALLOWED=NO
 
       - name: Export IPA
         run: |
           cd ios/App
-          xcodebuild -exportArchive -archivePath App.xcarchive -exportOptionsPlist ExportOptions.plist -exportPath ./build
+          xcodebuild -exportArchive -archivePath App.xcarchive -exportOptionsPlist ExportOptions.plist -exportPath ./build -allowProvisioningUpdates
 
       - name: Upload IPA artifact
         uses: actions/upload-artifact@v4
